@@ -77,7 +77,7 @@ sections:
     title: Try Our App Today
     actions:
       - title: Discover
-        url: https://134.122.83.169:1880/ui
+        url: http://134.122.83.169:1880/ui
         class: btn-light
 
   - type: members.html
