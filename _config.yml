@@ -13,7 +13,7 @@ sass:
   indentWidth: 4
   style: compressed
   precision: 10
-plugins:
+plugins_dir:
   - jekyll-sitemap
   - jekyll-seo-tag
 exclude:
