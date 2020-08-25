@@ -53,15 +53,15 @@ function detectmob() {
             `);
 
             //Backgroud slide Animation
-            $('header').hover(function () {
-                $(this).stop().fadeOut("1000", function () {
-                    $(this).css("background-image", "url('/assets/img/bg-masthead-cabbage.jpg')").fadeIn(1000);
-                });
-            }, function () {
-                $(this).stop().fadeOut("1000", function () {
-                    $(this).css("background-image", "url('/assets/img/bg-masthead-plant-port.jpg')").fadeIn(1000);
-                });
-            });
+            // $('header').hover(function () {
+            //     $(this).stop().fadeOut("1000", function () {
+            //         $(this).css("background-image", "url('/assets/img/bg-masthead-cabbage.jpg')").fadeIn(1000);
+            //     });
+            // }, function () {
+            //     $(this).stop().fadeOut("1000", function () {
+            //         $(this).css("background-image", "url('/assets/img/bg-masthead-plant-port.jpg')").fadeIn(1000);
+            //     });
+            // });
         }
      
 })()
