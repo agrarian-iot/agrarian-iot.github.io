@@ -1,0 +1,22 @@
+<br>
+<div class="container text-center">
+    <h2 class="mb-4">{{ section.title }}</h2>
+    <hr class="divider my-4">
+</div>
+
+<div class="quotes">
+    {% for testimonial in site.data.testimonials.data %}
+        <div class="quotes__item">
+            <img src="{{ '/assets/img/quotes.svg' | relative_url }}" alt="quotation mark icon" class="quotes__icon">
+            <div class="quotes__text">{{ testimonial.text }}</div>
+            <div class="quotes__author">{{ testimonial.name }}<span class="quotes__location">, {{ testimonial.location }}</span></div>
+        </div>
+        <div class="quotes__separator"></div>
+    {% endfor %}
+   
+</div>
+<div class="text-center">
+    <br>
+    <h2 class="mb-4">{{ section.title-lower }}</h2>
+    <hr class="divider my-4">
+</div>

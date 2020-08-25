@@ -3,11 +3,10 @@ layout: home
 header:
   title: Data Driven Agriculture
   text: >
-    Get Insights on your farm and avoid gumbling with your farm inputs. Precision farming at its best.
+    Agrarian is a customer-centred, data-driven platform that keeps track of farmland conditions and educates the farmer on optimum farming inputs and crops to cultivate for optimum and quality produce remotely and in real-time
   action: # action button is optional
     label: Find Out More
-    url: '#about'
-
+    url: '/about'
 
 sections:
   - type: call-to-action.html
@@ -28,7 +27,6 @@ sections:
       - title: Analytics
         text: Get real time analytics of your farm any where anytime
         icon: fa-chart-line text-primary
-        url: https://startbootstrap.com/
       - title: Technology
         text: We employ a range of technologies to monitor farms; IoT, ML, AI etc.
         icon: fa-microchip
@@ -85,35 +83,35 @@ sections:
     title: Our Crew
     background_style: bg-info text-primary
     members:
-      - title: Eric Mutua
-        text: Co founder & CEO 
+      - title: Eric 
+        text: Founder 
         image: assets/img/members/person1.jpg
         url: '#'
       - title: Diana
-        text: Public Relations Manager
+        text: '-'
         image: assets/img/members/person2.jpg
         url: '#'
       - title: Mathenge
-        text: Chief Operations Officer
+        text: '-'
         image: assets/img/members/person3.jpg
         url: '#'
-      - title: Todd E. Anderson
-        text: Chief Financial Officer
+      - title: Favor
+        text: '-'
+        image: assets/img/members/person4.jpg
+        url: '#'
+      - title: Grace
+        text: '-'
         image: assets/img/members/person5.jpg
         url: '#'
-      - title: Daniel T. Riley
-        text: Member
+      - title: Innocent
+        text: '-'
         image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: Member
-        image: assets/img/members/person7.jpg
         url: '#'
 
   - type: timeline.html
     section_id: timeline
     title: Major Achievements
-    background_style: bg-dark text-primary
+    background_style: bg-dark text-black-50
     last_image: assets/img/portfolio/timeline/timeline-end.png
     actions:
       # Humble beginnings
@@ -123,7 +121,7 @@ sections:
 
           **Humble Beginnings**
         text: >-
-          We begun with small group of people willing to work hard
+          We begun with a small group of people willing to work hard.
       # Prototype
       - image: assets/img/portfolio/timeline/prototype.jpg
         title: >+
@@ -131,7 +129,7 @@ sections:
 
           **First Prototype**
         text: >-
-          We set out to build a proof of concept prototype that turned out a success [see prototype demo]()
+          We set out to build a proof of concept prototype that turned out a success [see prototype demo](/about)
       # Oracle Award
       - image: assets/img/portfolio/timeline/oracle-award.jpg
         title: >+
@@ -147,7 +145,7 @@ sections:
 
           **Winners at Enactus National Expo**
         text: >-
-          We emerged as the top team nationally and proceeded to the Enactus Worldcup [see presentation](#link)
+          We emerged as the top team nationally and proceeded to the Enactus Worldcup [see presentation](#)
 
   - type: contact.html
     section_id: contacts

@@ -20,46 +20,57 @@ function detectmob() {
    
     if (detectmob()) {
             // Mobile device
+            // Prototype Video
+            $("#prototype-video").append(`
+            <iframe width="330" height="250" src="https://www.youtube.com/embed/-EBa97_Hh0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            `); 
+
             // Header logo
-
-            $("#logo").append(`<p class="nav-item nav-link">Agrarian</p>`);
-
-            //Alter Main-heading
-            $("#main-heading").empty();
-            $("#main-heading").append(`
-                <a href="#page-top">
-                    <img src="/assets/img/logo-light-green.png" alt="Horizontal-dash-header-Logo-Old" border="0">
+            $("#logo").append(`
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                    <img src="/assets/img/logos/logo-dark-mobile85by32.png" alt="Agrarian" border="0">
                 </a>
             `);
-            $("#divider").empty();
+
+            //Alter Main-heading
+            // $("#main-heading").empty();
+            // $("#main-heading").append(`
+            //     <a href="#page-top">
+            //         <img src="/assets/img/logos/logo-light-green.png" alt="Horizontal-dash-header-Logo-Old" border="0">
+            //     </a>
+            // `);
+            // $("#divider").empty();
         }
         else
         {
             // Desktop/Tablet device
-            // Header logo 
+            // Prototype Video
+            $("#prototype-video").append(`
+            <iframe width="735" height="404" src="https://www.youtube.com/embed/-EBa97_Hh0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            `); 
 
+            // Header logo
             $("#logo").append(`
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                    <img src="/assets/img/logo-light-green.png" alt="Horizontal-dash-header-Logo-Old" border="0">
+                    <img src="/assets/img/logos/logo-light-green.png" alt="Agrarian" border="0">
                 </a>
             `);
 
             // Footer logo
-
             $("#footer-logo").append(`
                 <a href="#page-top">
-                    <img src="/assets/img/logo-small-cyan-green.png" alt="Horizontal-dash-header-Logo-Old" border="0">
+                    <img src="/assets/img/logos/logo-small-cyan-green.png" alt="Agrarian" border="0">
                 </a>
             `);
 
             //Backgroud slide Animation
             // $('header').hover(function () {
             //     $(this).stop().fadeOut("1000", function () {
-            //         $(this).css("background-image", "url('/assets/img/bg-masthead-cabbage.jpg')").fadeIn(1000);
+            //         $(this).css("background-image", "url('/assets/img/backgrounds/bg-masthead-cabbage.jpg')").fadeIn(1000);
             //     });
             // }, function () {
             //     $(this).stop().fadeOut("1000", function () {
-            //         $(this).css("background-image", "url('/assets/img/bg-masthead-plant-port.jpg')").fadeIn(1000);
+            //         $(this).css("background-image", "url('/assets/img/backgrounds/bg-masthead-plant-port.jpg')").fadeIn(1000);
             //     });
             // });
         }
