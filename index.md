@@ -84,27 +84,27 @@ sections:
     background_style: bg-info text-primary
     members:
       - title: Eric 
-        text: '-'
+        text: Founder & Developer
         image: assets/img/members/person1.jpg
         url: '#'
       - title: Diana
-        text: '-'
+        text: Public Relations Lead
         image: assets/img/members/person2.jpg
         url: '#'
       - title: Mathenge
-        text: '-'
+        text: Project Lead
         image: assets/img/members/person3.jpg
         url: '#'
       - title: Favour
-        text: '-'
+        text: Financial Analyst
         image: assets/img/members/person4.jpg
         url: '#'
       - title: Grace
-        text: '-'
+        text: Business planning Lead
         image: assets/img/members/person5.jpg
         url: '#'
       - title: Innocent
-        text: '-'
+        text: Assistant Project Lead
         image: assets/img/members/person6.jpg
         url: '#'
 
