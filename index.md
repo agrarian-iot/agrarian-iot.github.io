@@ -84,7 +84,7 @@ sections:
     background_style: bg-info text-primary
     members:
       - title: Eric 
-        text: Founder 
+        text: '-'
         image: assets/img/members/person1.jpg
         url: '#'
       - title: Diana
@@ -95,7 +95,7 @@ sections:
         text: '-'
         image: assets/img/members/person3.jpg
         url: '#'
-      - title: Favor
+      - title: Favour
         text: '-'
         image: assets/img/members/person4.jpg
         url: '#'
