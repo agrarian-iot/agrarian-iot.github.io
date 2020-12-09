@@ -5,6 +5,8 @@
 header:
 - title: About
   url: /about
+- title: Pitch Deck
+  url: /pitch
 - title: Services
   url: /#services
 - title: Members

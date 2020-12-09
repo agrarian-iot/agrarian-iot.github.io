@@ -49,6 +49,12 @@ function detectmob() {
             <iframe width="735" height="404" src="https://www.youtube.com/embed/-EBa97_Hh0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             `); 
 
+            //pitch deck presentation
+            $("#pitch-deck").append(`
+            <iframe src="/uploads/AgrarianPitch.pdf"  style="overflow: scroll;" width="100%" height="900px">
+            </iframe>   
+            `);
+
             // Header logo
             $("#logo").append(`
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">
