@@ -1,7 +1,88 @@
+
+.container-devices-sm{
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  width:fit-content;
+}
+
+.container-devices-sm p{
+  float: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: medium;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.iphone12-sm{
+  position: absolute;
+  left: 120px;
+  top: 3500px;
+  margin: 0;
+}
+
+.nexus5-sm{
+  margin-left: -120px;
+}
+
+
+
 .pagehead {
   height: 15em !important;
   min-height: 15em !important;
 }
 .page-section-smaller {
   padding: 2rem 0;
+}
+
+.container-devices{
+  margin: 140px;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  width:fit-content;
+ 
+}
+
+.container-devices p{
+  text-align: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: medium;
+  margin-top : 3px;
+}
+
+.iphone12{
+  position: absolute;
+  left: 150px;
+  top: 2px; /* 30px */
+  margin: 0;
+}
+
+.nexus5{
+  margin: 0;
+}
+
+.phones{
+  position: absolute;
+  left: 300px;
+  top: -90.5px; /* -50px */
+  margin: 0
+}
+
+.moonTab{
+  margin-left: -400px; /* 0 */
+}
+
+.moonBook{
+  position: absolute;
+  top: 25px;
+  left: 627px;               
+}
+
+.mainContainer{
+  position: relative;
+  margin: 0;
 }
