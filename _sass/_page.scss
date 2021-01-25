@@ -9,25 +9,22 @@
 
 .container-devices-sm p{
   float: left;
-  font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
   font-size: medium;
-  margin-top: 50px;
-  margin-left: 30px;
+  margin-top: 5px;
+  margin:10px;
 }
 
 .iphone12-sm{
   position: absolute;
   left: 120px;
-  top: 3500px;
+  top: 900px;
   margin: 0;
 }
 
 .nexus5-sm{
   margin-left: -120px;
 }
-
-
 
 .pagehead {
   height: 15em !important;
