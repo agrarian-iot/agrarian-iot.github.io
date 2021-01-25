@@ -989,9 +989,6 @@ function detectmob() {
                <!-- End of Iphone-12 svg -->
             </div>
             <br>
-            <br>
-            <br>
-            <br>
             <p>Accessible across all devices</p>
         </div>
             `);
