@@ -22,7 +22,7 @@ function detectmob() {
             // Mobile device
             // Prototype Video
             $("#allDevicesSection").append(`
-            <div class="container-device-sm">
+            <div class="container-devices-sm">
             <div class="nexus5-sm">
                 <!-- Nexus-5 svg -->
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -988,9 +988,11 @@ function detectmob() {
                </svg>
                <!-- End of Iphone-12 svg -->
             </div>
-            <br>
-            <p>Accessible across all devices</p>
+            
         </div>
+        <br>
+        <p class="text-center"> Accessible on Mobile</p>
+        <br> 
             `);
 
             $("#prototype-video").append(`
