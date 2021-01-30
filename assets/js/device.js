@@ -991,7 +991,7 @@ function detectmob() {
             
         </div>
         <br>
-        <p class="text-center"> Accessible on Mobile</p>
+        <p class="text-center">Get access of your farm land conditions from anywhere anytime</p>
         <br> 
             `);
 
@@ -2209,7 +2209,7 @@ function detectmob() {
             
             </div>
         </div>
-            <p>Accessible across all platforms</p>
+            <p>Get access of your farm land conditions from anywhere anytime</p>
             </div>
             
             `);
