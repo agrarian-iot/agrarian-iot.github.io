@@ -2234,20 +2234,24 @@ function detectmob() {
             // Footer logo
             $("#footer-logo").append(`
                 <a href="#page-top">
-                    <img src="/assets/img/logos/logo-small-cyan-green.png" alt="Agrarian" border="0">
+                    <img src="/assets/img/logos/logo-small-cyan-green.png" alt="Agrarian">
                 </a>
             `);
 
-            //Backgroud slide Animation
+            // //Backgroud slide Animation
             // $('header').hover(function () {
-            //     $(this).stop().fadeOut("1000", function () {
-            //         $(this).css("background-image", "url('/assets/img/backgrounds/bg-masthead-cabbage.jpg')").fadeIn(1000);
+            
+            //     $(this).stop().fadeOut("2000", function () {
+                    
+            //         $(this).css("background", "url('/assets/img/backgrounds/bg-masthead-cabbage.jpg')").fadeIn(1000);
             //     });
             // }, function () {
-            //     $(this).stop().fadeOut("1000", function () {
-            //         $(this).css("background-image", "url('/assets/img/backgrounds/bg-masthead-plant-port.jpg')").fadeIn(1000);
+            //     $(this).stop().fadeOut("2000", function () {
+            //         $(this).css("background", "url('/assets/img/backgrounds/bg-masthead-green-veggie.jpg')").fadeIn(1000);
             //     });
             // });
+            
+            
         }
      
 })()

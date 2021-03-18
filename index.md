@@ -3,7 +3,7 @@ layout: home
 header:
   title: Data Driven Agriculture
   text: >
-    Agrarian is a customer-centred, data-driven solution that keeps track of farmland conditions and educates the farmer on optimum farming inputs and crops to cultivate for optimum and quality produce remotely and in real-time
+    Agrarian is a customer focused, data-driven solution that keeps track of farmland conditions and educates the farmer on optimum farming inputs and crops to cultivate for optimum and quality produce remotely and in real-time
   action: # action button is optional
     label: Find Out More
     url: '/about'
@@ -75,7 +75,8 @@ sections:
     title: Try Our App Today
     actions:
       - title: Discover
-        url: http://134.122.83.169:1880/ui
+        # Url to web app (Agrarian PWA)
+        url: '#' 
         class: btn-light
 
   - type: members.html
