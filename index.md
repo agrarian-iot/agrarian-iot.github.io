@@ -168,6 +168,6 @@ sections:
     - title: Facebook
       icon: fa-facebook
       icon_type: fab
-      url: 'https://www.facebook.com/profile.php?id=100008972190287'
+      url: 'https://www.facebook.com/agrarian.io/'
 
 ---
