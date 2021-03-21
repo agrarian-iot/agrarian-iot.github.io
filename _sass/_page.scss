@@ -20,6 +20,18 @@
   
 }
 
+.container-device-view{
+flex-flow: row nowrap;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0.5rem;
+}
+
+.item-view{
+margin:0
+}
+
 .iphone12-sm{
   position: absolute;
   left: 130px;
