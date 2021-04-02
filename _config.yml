@@ -3,7 +3,7 @@ title: Agrarian
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-author: Copyright &copy; 2020 - Agrarian
+author: Copyright &copy; 2021 - Agrarian
 lang: en_US
 
 # Build settings

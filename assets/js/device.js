@@ -15,12 +15,13 @@ function detectmob() {
      }
    }
 
-
 (function(){
-   
+    
     if (detectmob()) {
             // Mobile device
             // Prototype Video
+            $('#copyright').append(`Agrarian ${new Date().toString().split(' ')[3]} All Rights Reserved`);
+
             $("#allDevicesSection").append(`
             <div class="container-device-view text center">
                 <div class="item-view" style="margin-left:-1rem">
@@ -58,19 +59,13 @@ function detectmob() {
                 </a>
             `);
 
-            //Alter Main-heading
-            // $("#main-heading").empty();
-            // $("#main-heading").append(`
-            //     <a href="#page-top">
-            //         <img src="/assets/img/logos/logo-light-green.png" alt="Horizontal-dash-header-Logo-Old" border="0">
-            //     </a>
-            // `);
-            // $("#divider").empty();
         }
         else
         {
             // Desktop/Tablet device
             // Prototype Video
+
+            $('#copyright').append(`&copy; Agrarian ${new Date().toString().split(' ')[3]} All Rights Reserved`);
 
             $("#allDevicesSection").append(`
 
