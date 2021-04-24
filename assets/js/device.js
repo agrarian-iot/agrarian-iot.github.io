@@ -36,7 +36,6 @@ function detectmob() {
                 <!-- End of Iphone-12 svg -->
                 </div>
          </div>
-        
         <p class="text-center">Get access of your farm land conditions from anywhere anytime</p>
         <br> 
             `);
@@ -96,7 +95,9 @@ function detectmob() {
                 </div>
          </div>
 
+            <br>
             <p>Get access of your farm land conditions from anywhere anytime</p>
+            <br>
             </div>
             
             `);
