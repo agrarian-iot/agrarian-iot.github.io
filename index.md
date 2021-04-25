@@ -74,7 +74,7 @@ sections:
     section_id: aside
     title: Try Our App Today
     actions:
-      - title: User Our App Today
+      - title: Use Our App Today
         # Url to web app (Agrarian PWA)
         url: 'https://agrarian-io-pwa.netlify.app' 
         class: btn-light
