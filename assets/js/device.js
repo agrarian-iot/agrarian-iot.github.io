@@ -46,7 +46,7 @@ function detectmob() {
 
             // Pitch Deck
             $("#pitch-deck").append(`
-            <iframe style="border-radius: .9rem; border: solid 1px #38383d" src="/uploads/AgrarianPitch.pdf"  style="overflow: scroll;" width="85%" height="100%">
+            <iframe height="800px" style="border-radius: .9rem; border: solid 1px #38383d" src="/uploads/AgrarianPitch.pdf"  style="overflow: scroll;" width="85%" height="100%">
             </iframe>   
             `);
 
