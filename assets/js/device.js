@@ -41,12 +41,12 @@ function detectmob() {
             `);
 
             $("#prototype-video").append(`
-            <iframe width="330" height="250" src="https://www.youtube.com/embed/-EBa97_Hh0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style="border-radius: .9rem" width="330" height="250" src="https://www.youtube.com/embed/-EBa97_Hh0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             `); 
 
             // Pitch Deck
             $("#pitch-deck").append(`
-            <iframe src="/uploads/AgrarianPitch.pdf"  style="overflow: scroll;" width="100%" height="100%">
+            <iframe style="border-radius: .9rem; border: solid 1px #38383d" src="/uploads/AgrarianPitch.pdf"  style="overflow: scroll;" width="85%" height="100%">
             </iframe>   
             `);
 
@@ -57,6 +57,37 @@ function detectmob() {
                     <img src="/assets/img/logos/logo-dark-mobile85by32.png" alt="Agrarian" border="0">
                 </a>
             `);
+
+            // Benefits section
+            $("#benefits").append(`
+            <div class="row flex-direction-column justify-content-center align-items-center">
+            <div class="px-2 d-flex flex-direction-row justify-content-center align-items-center w-100">
+              <object width="150px" height="150px" data="assets/img/illustrations/circuit_board.svg" type="image/svg+xml"></object>
+              <h5 class="text-center ml-3">
+                <p style="word-wrap: break-word; width: 150px; color: #2f2e41 !important">
+                  Agrarian uses the best of technology, with AG11.
+                </p>
+              </h5>
+            </div>
+            <div class="px-2 d-flex flex-direction-row justify-content-center align-items-center w-100">
+              <h5 class="text-center mr-3">
+                <p style="word-wrap: break-word; width: 150px; color: #2f2e41 !important">
+                  Make sense of the data 
+                  by visualizing the metrics
+                </p>
+              </h5>
+              <object width="150px" height="150px" data="assets/img/illustrations/visual_data.svg" type="image/svg+xml"></object>
+            </div>
+            <div class="px-2 d-flex flex-direction-row justify-content-center align-items-center w-100">
+              <object width="150px" height="150px" data="assets/img/illustrations/Environmental_study.svg" type="image/svg+xml"></object>
+              <h5 class="text-center ml-3">
+                <p style="word-wrap: break-word; width: 150px; color: #2f2e41 !important">
+                  Understand your farm and give it what it needs
+                </p>
+              </h5>
+            </div>
+          </div>
+            `)
 
         }
         else
@@ -103,12 +134,12 @@ function detectmob() {
             `);
 
             $("#prototype-video").append(`
-            <iframe width="735" height="404" src="https://www.youtube.com/embed/-EBa97_Hh0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style="border-radius: .9rem" width="900" height="450" src="https://www.youtube.com/embed/-EBa97_Hh0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             `); 
 
             //pitch deck presentation
             $("#pitch-deck").append(`
-            <iframe src="/uploads/AgrarianPitch3.pdf"  style="overflow: scroll;" width="100%" height="900px">
+            <iframe style="border-radius: .9rem; border: solid 1px #38383d" src="/uploads/AgrarianPitch3.pdf"  style="overflow: scroll;" width="85%" height="900px">
             </iframe>   
             `);
 
@@ -124,6 +155,38 @@ function detectmob() {
                 <a href="#page-top">
                     <img src="/assets/img/logos/logo-small-cyan-green.png" alt="Agrarian">
                 </a>
+            `);
+
+            // Benefits Section
+
+            $("#benefits").append(`
+            <div class="row flex-direction-column justify-content-center align-items-center">
+            <div class="d-flex flex-direction-row justify-content-center align-items-center w-100">
+              <object width="400px" height="400px" data="assets/img/illustrations/circuit_board.svg" type="image/svg+xml"></object>
+              <h4 class="text-center ml-5">
+                <p style="word-wrap: break-word; width: 250px; color: #2f2e41 !important">
+                  Agrarian uses the best of technology, with AG11.
+                </p>
+              </h4>
+            </div>
+            <div class="d-flex flex-direction-row justify-content-center align-items-center w-100">
+              <h4 class="text-center mr-5">
+                <p style="word-wrap: break-word; width: 250px; color: #2f2e41 !important">
+                  Make sense of the data 
+                  by visualizing the metrics
+                </p>
+              </h4>
+              <object width="400px" height="400px" data="assets/img/illustrations/visual_data.svg" type="image/svg+xml"></object>
+            </div>
+            <div class="d-flex flex-direction-row justify-content-center align-items-center w-100">
+              <object width="400px" height="400px" data="assets/img/illustrations/Environmental_study.svg" type="image/svg+xml"></object>
+              <h4 class="text-center ml-5">
+                <p style="word-wrap: break-word; width: 250px; color: #2f2e41 !important">
+                  Understand your farm and give it what it needs
+                </p>
+              </h4>
+            </div>
+          </div>
             `);
 
             // //Backgroud slide Animation

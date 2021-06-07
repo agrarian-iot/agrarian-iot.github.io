@@ -11,7 +11,7 @@ header:
 sections:
   - type: call-to-action.html
     section_id: about
-    background_style: bg-primary
+    # background_style: #bg-primary
     title: We've got you covered
     text: Get actionable insights of your farm anywhere anytime.  Get to understand what your crops need and optimaly employ your farm inputs to get maximum yields 
     actions:
@@ -79,40 +79,40 @@ sections:
         url: 'https://agrarian-io-pwa.netlify.app' 
         class: btn-light
 
-  - type: members.html
-    section_id: members
-    title: Our Crew
+  - type: benefits.html
+    section_id: benefits
+    title: Benefits
     background_style: bg-info text-primary
-    members:
-      - title: Eric 
-        text: Founder & Developer
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Diana
-        text: Public Relations Lead
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Mathenge
-        text: Project Lead
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Favour
-        text: Financial Analyst
-        image: assets/img/members/person4.jpg
-        url: '#'
-      - title: Grace
-        text: Business planning Lead
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Innocent
-        text: Assistant Project Lead
-        image: assets/img/members/person6.jpg
-        url: '#'
+    # members:
+    #   - title: Eric 
+    #     text: Founder & Developer
+    #     image: assets/img/members/person1.jpg
+    #     url: '#'
+    #   - title: Diana
+    #     text: Public Relations Lead
+    #     image: assets/img/members/person2.jpg
+    #     url: '#'
+    #   - title: Mathenge
+    #     text: Project Lead
+    #     image: assets/img/members/person3.jpg
+    #     url: '#'
+    #   - title: Favour
+    #     text: Financial Analyst
+    #     image: assets/img/members/person4.jpg
+    #     url: '#'
+    #   - title: Grace
+    #     text: Business planning Lead
+    #     image: assets/img/members/person5.jpg
+    #     url: '#'
+    #   - title: Innocent
+    #     text: Assistant Project Lead
+    #     image: assets/img/members/person6.jpg
+    #     url: '#'
 
   - type: timeline.html
     section_id: timeline
     title: Major Achievements
-    background_style: bg-dark text-black-50
+    background_style: bg-dark text-white-50
     last_image: assets/img/portfolio/timeline/timeline-end.png
     actions:
       # Humble beginnings
@@ -149,6 +149,7 @@ sections:
           We emerged as the top team nationally and proceeded to the Enactus Worldcup [see presentation](#)
 
   - type: contact.html
+    background_style: bg-info
     section_id: contacts
     title: Let's Get In Touch
     text: >-
