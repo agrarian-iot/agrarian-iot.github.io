@@ -6328,6 +6328,61 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
+/* Iphone */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .bg-dark {
+      // background-color: #343a40 !important;
+      background-image:url('../../assets/img/backgrounds/bg-card-gradient-only.svg');
+      background-size:cover;
+    }
+}
+
+/* Galaxy Phones */
+
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    .bg-dark {
+      // background-color: #343a40 !important;
+      background-image:url('../../assets/img/backgrounds/bg-card-gradient-only.svg');
+      background-size:cover;
+    }
+}
+
+/* Google phones */
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    .bg-dark {
+      // background-color: #343a40 !important;
+      background-image:url('../../assets/img/backgrounds/bg-card-gradient-only.svg');
+      background-size:cover;
+    }
+}
+
+/* Nexus */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 592px) 
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+    .bg-dark {
+      // background-color: #343a40 !important;
+      background-image:url('../../assets/img/backgrounds/bg-card-gradient-only.svg');
+      background-size:cover;
+    }
+}
+
 @media (min-width: 576px) {
   .d-sm-none {
     display: none !important;
@@ -6364,6 +6419,9 @@ button.bg-dark:focus {
   .d-sm-inline-flex {
     display: inline-flex !important;
   }
+
+
+
 }
 @media (min-width: 768px) {
   .d-md-none {
@@ -6401,6 +6459,8 @@ button.bg-dark:focus {
   .d-md-inline-flex {
     display: inline-flex !important;
   }
+    
+
 }
 @media (min-width: 992px) {
   .d-lg-none {
