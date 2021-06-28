@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1440 560">
     <g mask="url(&quot;#SvgjsMask2700&quot;)" fill="none">
         <rect width="1440" height="560" x="0" y="0" fill="url(#SvgjsLinearGradient2701)"></rect>
-        <path d="M-97.08 359.32L-97.08 359.32" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
+        <!-- <path d="M-97.08 359.32L-97.08 359.32" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
         <path d="M-97.08 359.32L53.7 388.28" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
         <path d="M-97.08 359.32L-91.12 541.13" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
         <path d="M-97.08 359.32L37.88 493.63" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
@@ -176,7 +176,7 @@
         <path d="M1544.06 549.17L1544.06 549.17" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
         <path d="M1544.06 549.17L1565.27 641.52" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
         <path d="M1565.27 641.52L1565.27 641.52" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
-        <path d="M1565.27 641.52L1257.21 702.5" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path>
+        <path d="M1565.27 641.52L1257.21 702.5" stroke="rgba(0, 192, 135, 1)" stroke-width="1.5"></path> -->
         <circle r="5" cx="-97.08" cy="359.32" fill="rgba(0, 192, 135, 1)"></circle>
         <circle r="5" cx="-91.12" cy="541.13" fill="rgba(0, 192, 135, 1)"></circle>
         <circle r="5" cx="-58.06" cy="646.06" fill="rgba(0, 192, 135, 1)"></circle>
@@ -228,7 +228,7 @@
         <circle r="5" cx="1583.51" cy="389.8" fill="rgba(0, 192, 135, 1)"></circle>
         <circle r="5" cx="1544.06" cy="549.17" fill="rgba(0, 192, 135, 1)"></circle>
         <circle r="5" cx="1565.27" cy="641.52" fill="rgba(0, 192, 135, 1)"></circle>
-        <path d="M96.41 697.12L96.41 697.12" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
+        <!-- <path d="M96.41 697.12L96.41 697.12" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
         <path d="M96.41 697.12L197.26 705.92" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
         <path d="M96.41 697.12L74.97 527.54" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
         <path d="M956.99 668.67L956.99 668.67" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
@@ -373,7 +373,7 @@
         <path d="M1602.54 671.41L1602.54 671.41" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
         <path d="M1602.54 671.41L1449.67 503.85" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
         <path d="M1602.54 671.41L1612.4 348.82" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
-        <path d="M1602.54 671.41L1297.05 558.43" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path>
+        <path d="M1602.54 671.41L1297.05 558.43" stroke="hsl(152.5, 96.3%, 54.8%)" stroke-width="1.5"></path> -->
         <circle r="25" cx="96.41" cy="697.12" fill="url(#SvgjsRadialGradient2702)"></circle>
         <circle r="25" cx="956.99" cy="668.67" fill="url(#SvgjsRadialGradient2702)"></circle>
         <circle r="25" cx="1136.37" cy="399.38" fill="url(#SvgjsRadialGradient2702)"></circle>
