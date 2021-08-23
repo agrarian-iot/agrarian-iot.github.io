@@ -3,7 +3,7 @@ layout: home
 header:
   title: Data Driven Agriculture
   text: >
-    Agrarian is a customer focused, data-driven solution that keeps track of farmland conditions and educates the farmer on optimum farming inputs and crops to cultivate for optimum and quality produce remotely and in real-time
+    Agrarian is a data-driven solution that keeps track of farmland conditions with the goal of maximizing yeilds and minimizing resource usage (farm inputs).
   action: # action button is optional
     label: Find Out More
     url: '/about'
